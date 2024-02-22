@@ -1,0 +1,589 @@
+$header-color:#026c6c; 
+$second-header:#04a2a2;
+$primary-color:#1e8f8f;
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header-div{
+    background-color: $header-color;
+    height: 7vh;
+    .Z-btn{
+        width: 42px;
+        height: 30px;
+        text-align: center;
+        font-size: medium;
+        font-weight: 500;
+        padding: 0;
+        border: 1px solid white;
+        color: white;
+    }
+    .Z-btn:hover{
+        border: 2px solid white;
+        color: white;
+    }
+}
+.logo{
+    height: 35px;
+}
+.logo-text{
+    text-decoration: none;
+    color: white;
+    font-size:small;
+    font-weight: 400;
+}
+.lang-drpDwn{
+    text-decoration: none;
+    color: white;
+}
+.second-head{
+    background-color: $second-header;
+    height: 9vh;
+                .row{
+                    .col{
+                        .nav{
+                            .Reg-btn{
+                                    border: 2px solid white;
+                                    font-weight: 500;
+                                    color:white
+                                }
+                                .Reg-btn:hover{
+                                    border: 2px solid rgb(221, 155, 32);
+                                    color: rgb(221, 155, 32);
+                                }
+                            }
+                        }
+                    }
+}
+.first-content{
+    background-image: url(https://www.cowin.gov.in/precaution_banner_bg_web.c656a76b28237d8fb924.png);
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+.f-c-text{
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bolder;
+    font-size: 200%;
+}
+.box-text{
+    font-weight: bolder;
+    font-size: 220%;
+}
+.pm-cont{
+    font-size: 120%;
+    font-weight: 600;
+}
+.call-tab{
+    background-color: $header-color;
+    width: 130px;
+    height: 50px;
+    box-shadow: 0px 4px 5px gray;
+    font-weight: 500;
+    font-size: small;
+}
+.support-link{
+    text-decoration: none;
+    color: white;
+}
+.vaccin-div{
+    background: linear-gradient(120deg,#007c7c 50%,#04c4c4 0);
+    height: 10vh;
+}
+.vaccin-ttl-count{
+    font-weight: bold;
+    color: white;
+}
+.vaccin-tdy-count{
+    font-weight: bold;
+    color: black;
+}
+.vaccin-steps{
+    background-color: #edffff;
+    height: 73vh;
+}
+.vaccin-steps-head{
+    text-align: center;
+    color: #058181;
+}
+.first-step-div{
+    width: 270px;
+    height: 340px;
+    // border: 1px solid;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px gray;
+}
+.f-s-img{
+    text-align: center;
+    height: 136px;
+}
+.f-s-cont{
+    text-align: center;
+    background-color:#079c9c ;
+    color: white;
+    height: 140px;
+    font-weight: 500;
+}
+.f-s-foot{
+    text-align: center;
+    color: #057878;
+    font-weight: 300;
+}
+.step-div{
+    background-color: white;
+    width: 60px;
+    text-align: center;
+    border-radius: 7px;
+    border: 1px solid;
+}
+.vaccin-center{
+    height: 50vh;
+    background-color: #fff;
+}
+.vaccin-center-head{
+    color: #079c9c;
+    font-family:'Lucida Sans';
+    text-align: center;
+}
+.vaccin-center-subhead{
+    text-align: center;
+}
+.vaccin-center-minihead{
+    text-align: center;
+    color: $second-header;
+}
+.vaccin-center-tab{
+    font-size: x-large;
+    font-weight: bold;
+    .nav-link{
+        color: gray;
+    }
+}
+// .vaccin-center-tab:hover{
+//     color: #04c4c4;
+// }
+.state-div{
+    border: 1px solid lightgray;
+    width: 330px;
+    height: 50px;
+    padding: 12px;
+}
+.state-btn{
+    padding-top: 6px;
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+    width: 180px;
+    height: 40px;
+    background-color: $primary-color;
+    color: white;
+}
+.dose-details{
+    height: 65vh;
+    background-color: white;
+    h1{
+        color: $primary-color;
+        font-weight: bold;
+    }
+    span{
+        color: gray;
+    }
+}
+.side-effect{
+    height: 50vh;
+    background-color: #edffff;
+    h1{
+        color: $primary-color;
+        font-weight: bold;
+    }
+    span{
+        color: gray;
+    }
+}
+.children-vaccin{
+    height: 75vh;
+    background-color:#fff ;
+    h2{
+        color: $primary-color;
+        font-weight: bold;
+    }
+    p{
+        color: gray;
+    }
+    img{
+        width: 650px;
+        padding-left: 100px;
+    }
+}
+.vaccin-date{
+    background-color: #edffff;
+    height: 50vh;
+    h1{
+        color: $primary-color;
+        font-weight: bold;
+    }
+    span{
+        color: gray;
+    }
+    img{
+        width: 400px;
+    }
+}
+.precaution-dose{
+    height: 82vh;
+    background-color:#fff;
+    h2{
+        color: $primary-color;
+        font-weight: bold;
+    }
+    p{
+        color: gray;
+    }
+    img{
+        width: 550px;
+    }
+}
+.vaccin-status{
+    background-color: #edffff;
+    height: 60vh;
+    h1{
+        color: $primary-color;
+        font-weight: bold;
+    }
+    span{
+        color: gray;
+    }
+    img{
+        width: 400px;
+    }
+}
+.healthId-benefits{
+    background-color: #fff;
+    height: 80vh;
+    h1{
+        color:$primary-color;
+        font-weight: bold;
+    }
+    p{
+        text-align: center;
+        color: gray;
+    }
+    .box-video{
+        width: 530px;
+        height: 250px;
+        border: 1px solid;
+        box-shadow: 1px 1px 5px gray;
+    }
+    .video-btn{
+        width: 250px;
+        height: 45px;
+        background-color: $primary-color;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 10px;
+        box-shadow: 0px 1px 5px gray;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+.raise-issue{
+    background-color:$primary-color;
+    height: 63vh;
+    .col{
+        text-align: center;
+        color: white;
+        h2{
+            font-weight: bold;
+        }
+    }
+    .row{
+        .carousel-div{
+            width: 260px;
+            height: 245px;
+            // border: 1px solid red;
+            background-color: white;
+            border-radius: 8px;
+            margin: 5px;
+            a{
+                color:$header-color ;
+                text-align: center;
+                text-decoration: none;
+            }
+            p{
+                color: rgb(87, 87, 87);
+                text-align: center;
+                padding-top: 10px;
+            }
+        }
+    }
+}
+.questions-div{
+    height: 75vh;
+    background-color: #fff;
+    .row{
+
+        .col{
+            h2{
+            font-weight: bold;
+            color: $header-color;
+            }
+            .download-btn{
+            background-color: white;
+            border:2px solid $header-color;
+            color: $header-color;
+            font-weight: 600;
+            width: 200px;
+            height: 45px;
+            }
+            img{
+                width: 300px;
+            }
+        }
+        .Q-tab{
+        background-color: #dafbfb;
+        height: 60px;
+        border-radius: 27px 27px 0 0;
+        border-bottom:3px solid lightgray ;
+        }
+        .Q-tab-content{
+            height: 300px;
+            border-radius: 5px;
+            background-color: rgb(233, 230, 230);
+            overflow-y: scroll;
+            p{
+                font-weight: bold;
+                color: black;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+            p:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+.new-on-cowin{
+    height: 80vh;
+    background-color:#edffff;
+    .col{
+        h2{
+            text-align: center;
+            font-weight: bold;
+            color: $header-color;
+        }
+    }
+}
+.cowin-scroll-div{
+    width: 950px;
+    height: 420px;
+    // border: 1px solid;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+
+    .new-cowin-innerdivs{
+        border: none;
+        background-color: rgb(246, 244, 244);
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px gray
+    }
+}
+.accordion-btn{
+    border: none;
+    background-color: rgb(246, 244, 244);
+}
+.accordion-body{
+    background-color: rgb(246, 244, 244);
+    color: rgb(100, 99, 99);
+}
+
+.Largest-Vaccination-Drive{
+    height: 85vh;
+    background-color: #fff;
+    .container{
+        .row{
+            h2{
+                color: $header-color;
+                font-weight: bold;
+                text-align: center;
+            }
+            .col{
+                .Vaccination-Dashboard-btn{
+                    border: 2px solid $header-color;
+                    width: 250px;
+                    color: $header-color;
+                    font-weight: 600;
+                }
+                .vaccin-Drive-box-head{
+                    color: $second-header;
+                    font-weight: 600;
+                }
+                .vaccin-Drive-box{
+                    width: 280px;
+                    background-color: $header-color;
+                    color: white;
+                    border-radius: 3px;
+                    padding: 5px;
+                    .f-span{
+                        font-size: x-large;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.Partners-div{
+    height: 55vh;
+    background-color: #e0fafa;
+    .container{
+        .row{
+            h2{
+                color: $header-color;
+                font-weight:700;
+                font-weight: bold;
+            }
+            .Partners-logo{
+                background-color: white;
+                border-radius: 5px;
+                width: 180px;
+                height: 50px;
+                text-align: center;
+                box-shadow: 1px 1px 5px gray;
+            }
+            .Partners-f-btn{
+                width: 220px;
+                height: 45px;
+                background-color: $header-color;
+                color: white;
+                font-weight:600;
+                text-align: center;
+            }
+            .Partners-s-btn{
+                width: 220px;
+                height: 45px;
+                border: 2px solid $header-color;
+                color: $header-color;
+                font-weight:600;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.footer-div{
+    height: 40vh;
+    background-color: #007c7c;
+    .row{
+        .col{
+            h6{
+                font-size: 14px;
+                font-weight: 600;
+                color: #99d9d9;
+                text-transform: uppercase;
+                margin-bottom: 22px;
+                text-wrap: nowrap;
+            }
+            
+            a{
+                text-decoration: none;
+                color: #fff;
+                font-size: 12px;
+                font-weight: 400;
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+            ul{
+                li{
+                    list-style: none;
+                    text-align: start;
+                }
+            }
+            .support-contact-div{
+                border-bottom: 1px solid gray;
+            }
+            .he-border{
+                content: "";
+                display: block;
+                border-bottom: 5px solid #99d9d9;
+                width: 22px;
+                position: relative;
+                bottom: -4px;
+            }
+        }   
+    }
+}
+
+.last-footer{
+    height: 12vh;
+    background-color: #055151;
+    .row{
+        .col{
+            span{
+                font-weight: 400;
+                font-size: 12px;
+                color: white;
+            }
+            ul{
+                li{
+                    list-style: none;
+                    a{
+                        img{
+                            vertical-align: middle;
+                        }
+                    }
+                }
+            }
+            a{
+                color: #fff;
+                font-weight: 400;
+                font-size: 12px;
+                text-decoration: none;
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.home-btn{
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+    z-index: 4;
+    cursor: pointer;
+    padding: 0;
+    outline: none;
+    margin: 0;
+    border: none;
+    background: none;
+}
+
+//scrollbar styling
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: $second-header;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+
+
